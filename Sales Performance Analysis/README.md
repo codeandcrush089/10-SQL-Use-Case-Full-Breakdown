@@ -380,3 +380,25 @@ Download
 </a>
 
 ### 2. Online Sales Dataset – Popular Marketplace Data
+> Structured online-sales data with product & category information — suitable for category-based revenue / sales-performance analysis.
+<a href="https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data" target="_blank">
+Download
+</a>
+
+### 3. Sample Sales Data bundle
+> A synthetic but realistic set of sales/retail datasets (orders, online-store orders, POS, inventory, etc.) — useful for experimentation, pivot-table work, or building dashboards.
+<a href="https://excelx.com/practice-data/sales-retail" target="_blank">
+Download
+</a>
+
+### 4. Warehouse and Retail Sales
+> Monthly sales and item/department-level data from a retail context — good for time-series revenue analysis (monthly, quarterly, yearly).
+<a href="https://catalog.data.gov/dataset/warehouse-and-retail-sales" target="_blank">
+Download
+</a>
+
+### 5. ga4_obfuscated_sample_ecommerce
+> Demo ecommerce dataset with structured transactional data — useful if you want to test SQL work in a cloud data-warehouse or BigQuery context.
+<a href="https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset" target="_blank">
+Download
+</a>
