@@ -230,31 +230,31 @@ You can pose these as exercises to practise SQL with real or sample datasets:
 
 Here are **5 publicly available datasets** (or dataset collections) you can download and use to practise the above customer segmentation tasks:
 
-### 1. Brazilian E-Commerce Public Dataset by Olist 
+### 1. Brazilian E-Commerce Public Dataset by Olist :
 > ~100,000 orders, with customers, products, order data — good for segmentation and RFM analysis.
 <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank">
 Download
 </a>
 
-### 2. E‑Commerce Orders Data
+### 2. E‑Commerce Orders Data:
 > Transactional data across orders, items, and products — useful for spend and customer analysis.
 <a href="https://www.kaggle.com/datasets/carrie1/ecommerce-data" target="_blank">
 Download
 </a>
 
-### 3. Global Online Orders
+### 3. Global Online Orders:
 > E-commerce database containing info about products, categories, customers, and orders. Useful for segmentation with product-category insight.
 <a href="https://www.kaggle.com/datasets/javierspdatabase/global-online-orders" target="_blank">
 Download
 </a>
 
-### 4. E‑commerce Order & Supply Chain Dataset
+### 4. E‑commerce Order & Supply Chain Dataset:
 > Contains orders, items, customers, payments and products — a complete transactional model for deeper analysis.
 <a href="https://www.kaggle.com/datasets/bytadit/ecommerce-order-dataset" target="_blank">
 Download
 </a>
 
-### 5. E‑Commerce Data Playground (from Maven Analytics) – “Toy Store E-Commerce Database”
+### 5. E‑Commerce Data Playground (from Maven Analytics) – “Toy Store E-Commerce Database”:
 > A synthetic but realistic dataset to practice segmentation, cohort, and RFM analyses — useful for learning/training.
 <a href="https://mavenanalytics.io/data-playground" target="_blank">
 Download
