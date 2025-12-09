@@ -296,37 +296,37 @@ You can convert this into excellent SQL interview problems:
 
 ### Q1: “Top 3 Most Profitable Months”
 
-> Using a P&L query, find the **top 3 months with highest profit.**
+Using a P&L query, find the **top 3 months with highest profit.**
 
-(Hint: compute monthly profit then `ORDER BY profit DESC LIMIT 3`.)
+> (Hint: compute monthly profit then `ORDER BY profit DESC LIMIT 3`.)
 
 
 ### Q2: “Months with Negative Profit (Loss Months)”
 
-> List all months where profit was **negative**, along with profit margin.
+List all months where profit was **negative**, along with profit margin.
 
-(Hint: filter `WHERE profit < 0`.)
+> (Hint: filter `WHERE profit < 0`.)
 
 
 ### Q3: “Compare This Year vs Last Year”
 
-> For each month number (1–12), compare **this year’s profit vs last year’s profit**.
+For each month number (1–12), compare **this year’s profit vs last year’s profit**.
 
-(Hint: extract `YEAR` and `MONTH`, group, then self-join or pivot.)
+> (Hint: extract `YEAR` and `MONTH`, group, then self-join or pivot.)
 
 
 ### Q4: “Expense Breakdown by Category per Month”
 
-> For each month, show total expenses split by category (salary, rent, marketing, etc.).
+For each month, show total expenses split by category (salary, rent, marketing, etc.).
 
-(Hint: group by `DATE_TRUNC('month', txn_date), category`.)
+> (Hint: group by `DATE_TRUNC('month', txn_date), category`.)
 
 
 ### Q5: “Revenue Concentration”
 
-> Find what **% of total yearly revenue** comes from the **top 2 months**.
+Find what **% of total yearly revenue** comes from the **top 2 months**.
 
-(Hint: monthly revenue, order, sum top 2 / total.)
+> (Hint: monthly revenue, order, sum top 2 / total.)
 
 ---
 
@@ -366,3 +366,34 @@ Here are practice tasks you can put as **Instagram carousel / YouTube short / bl
 
 Use a `CASE` expression.
 
+---
+## Datasets
+### 1. Accounting Data for Financial Management: 
+> A dataset modeling real-world financial transactions: revenue, expenses, cash flow, profitability etc. — ideal for building P&L statements, monthly profit queries.
+<a href="https://www.kaggle.com/datasets/ziya07/accounting-data-for-financial-management" target="_blank">
+Download
+</a>
+
+### 2. Profit & Loss Example Project:
+> Sample P&L data for several fiscal years — good to practise monthly/quarterly profit calculations and trend analysis.
+<a href="https://www.kaggle.com/datasets/aleckszhukovsky/profit-loss-example-project" target="_blank">
+Download
+</a>
+
+### 3. Financial Sheets Dataset:
+> Dataset containing financial statement-style data for companies — useful for analyzing company performance, revenue/expense breakdown, profitability.
+<a href="https://www.kaggle.com/datasets/pacificrm/financial-sheets" target="_blank">
+Download
+</a>
+
+### 4. Free Finance & Accounting Sample Data:
+> A collection of synthetic but realistic datasets (general ledger, AR/AP, expense claims etc.) — useful to simulate real-company accounting, generate P&L, cash flow etc.
+<a href="https://excelx.com/practice-data/finance-accounting/" target="_blank">
+Download
+</a>
+
+### 5. Companies ranked by earnings - CompaniesMarketCap.com.csv:
+> Contains earnings/financial metrics of ~6,000+ companies globally — useful for high-level profitability analysis or as mock data for revenue/expense modelling.
+<a href="https://www.opendatabay.com/data/financial/0ac70e7d-7f08-4112-a300-8add4434ade8" target="_blank">
+Download
+</a>
