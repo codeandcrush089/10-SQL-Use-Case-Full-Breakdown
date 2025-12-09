@@ -309,29 +309,29 @@ You can easily turn this into SQL interview challenges:
 
 ### Q1: “Top 3 Co-Purchased Products for Every Product”
 
-> For each product, find its **top 3 most frequently co-purchased products**.
+For each product, find its **top 3 most frequently co-purchased products**.
 
-(Hint:
-
-* Build pairs
-* For each `product_a`, rank `product_b` by `times_bought_together` using `ROW_NUMBER()` or `RANK()`
-* Filter `rank <= 3`.)
+> (Hint:
+> 
+> * Build pairs
+> * For each `product_a`, rank `product_b` by `times_bought_together` using `ROW_NUMBER()` or `RANK()`
+> * Filter `rank <= 3`.)
 
 
 
 ### Q2: “Category-Level Co-Purchase Patterns”
 
-> Instead of product-to-product, find **category-to-category** pairs that are frequently bought together.
+Instead of product-to-product, find **category-to-category** pairs that are frequently bought together.
 
-(Hint: join `order_items` → `products` twice and group by `category_a`, `category_b`.)
+> (Hint: join `order_items` → `products` twice and group by `category_a`, `category_b`.)
 
 
 
 ### Q3: “Time-Window Based Recommendations”
 
-> Only use orders from the last 6 months when calculating “frequently bought together”.
+Only use orders from the last 6 months when calculating “frequently bought together”.
 
-(Hint: filter `orders.order_date >= CURRENT_DATE - INTERVAL '6 months'` before building pairs.)
+> (Hint: filter `orders.order_date >= CURRENT_DATE - INTERVAL '6 months'` before building pairs.)
 
 
 
@@ -340,9 +340,9 @@ You can easily turn this into SQL interview challenges:
 Sometimes items are **always sold together** as a bundle (e.g., phone + charger in same box).
 You might want to **ignore those** and only show *discovery* cross-sells.
 
-> Write a query that ignores product pairs where **co-purchase rate > 90%** of all orders containing product A.
+Write a query that ignores product pairs where **co-purchase rate > 90%** of all orders containing product A.
 
-(Hint: use `confidence` and filter.)
+> (Hint: use `confidence` and filter.)
 
 
 
@@ -399,3 +399,34 @@ Where `score` = combination of frequency + confidence.
 Fill this using SQL from your product-pair stats.
 
 
+---
+## Datasets
+### 1. MovieLens: 
+> One of the most popular “benchmark” recommendation datasets — contains user-movie ratings (and metadata: movies, genres, tags) for millions of interactions. Great for collaborative filtering, content-based and hybrid recommender experiments.
+<a href="https://grouplens.org/datasets/movielens" target="_blank">
+Download
+</a>
+
+### 2. Amazon Product Reviews (or Amazon Product Data):
+> Large-scale e-commerce review dataset including user reviews, product metadata (categories, descriptions), reviews/ratings — widely used for product recsys or “also bought / also viewed” type recommenders.
+<a href="https://github.com/caserec/Datasets-for-Recommender-Systems" target="_blank">
+Download
+</a>
+
+### 3. RetailRocket E-commerce Dataset:
+> Real-world e-commerce dataset (behavior data, item metadata, category info) — good for “implicit feedback” recommendation tasks (clicks, views, purchases) in product recommendation context.
+<a href="https://github.com/caserec/Datasets-for-Recommender-Systems" target="_blank">
+Download
+</a>
+
+### 4. Book‑Crossing Dataset:
+> A dataset of user ratings / interactions with books — useful for building recommendation engines for books / reading platforms (explicit feedback).
+<a href="https://github.com/caserec/Datasets-for-Recommender-Systems" target="_blank">
+Download
+</a>
+
+### 5. Other domain datasets (music, apps, games, social):
+> Demo ecommerce dataset with structured transactional data — useful if you want to test SQL work in a cloud data-warehouse or BigQuery context.
+<a href="https://github.com/caserec/Datasets-for-Recommender-Systems" target="_blank">
+Download
+</a>
